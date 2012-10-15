@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Video Tags</title>
+	<link rel="stylesheet" href="screen.css" />
+</head>
+<body>
+	
+
+	<div id="vid">
+		<video controls width="720">
+			<source src="video_mp4.avi" type="video/mp4">
+				<source src="video_ogg.ogg" type="video/ogg">
+		</video>
+
+		<div class="taggables"></div>
+		<div class="tagged"></div>
+	</div>
+
+	<span class="tag-button">Tag a person</span>
+
+	<ol class="tag-list"></ol>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
